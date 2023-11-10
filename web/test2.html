@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and JavaScript App</title>
+</head>
+<body>
+
+    <h1>HTML and JavaScript App</h1>
+
+    <p id="output">Click the button to change this text.</p>
+
+    <button onclick="changeText()">Click me</button>
+
+    <script>
+        // JavaScript code
+        function changeText() {
+            var paragraph = document.getElementById("output");
+            paragraph.innerHTML = "Text changed using JavaScript!";
+        }
+    </script>
+
+</body>
+</html>
