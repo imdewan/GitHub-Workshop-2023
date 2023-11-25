@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ChessQuiz {
+public class chessquiz {
 
     public static void main(String[] args) {
         int score = 0;
